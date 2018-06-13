@@ -121,8 +121,7 @@ class Program:
         
         parser.add_argument('-t', '--type',
         help=cyan+'hash type (See supported hashes)!'+end,
-        type=str,
-        default=None)
+        type=str)
         parser.add_argument('-H', '--hash',
         help=cyan+'hash value (hash sums)!'+end,
         type=str,
