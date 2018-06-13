@@ -35,6 +35,7 @@ cp hash.txt /opt/xCracker
 cp install.sh /usr/bin/xCracker-install
 cp uninstall.sh /usr/bin/xCracker-uninstall
 cp xCracker.py /usr/bin/xCracker
+cp words.txt /usr/bin
 
 sleep 1
 
