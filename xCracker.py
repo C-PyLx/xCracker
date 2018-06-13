@@ -122,15 +122,15 @@ class Program:
         parser.add_argument('-t', '--type',
         help=cyan+'hash type (See supported hashes)!'+end,
         type=str,
-        default='md5')
+        default=None)
         parser.add_argument('-H', '--hash',
         help=cyan+'hash value (hash sums)!'+end,
         type=str,
-        default='e710bd5c9954d75a973406effb384095')
+        default=None)
         parser.add_argument('-w', '--word',
         help=cyan+'wordlist filepath (ex:words.txt)!'+end,
         type=str,
-        default='words.txt')
+        default=None)
         parser.add_argument('-v', '--verbose',
         help=cyan+'enable verbosity (Slow cracking)!'+end,
         action='store_true',
