@@ -39,10 +39,11 @@ cp words.txt /usr/bin
 
 sleep 1
 
+echo
 echo -e $green"[ ✔ ] xCracker installed successfully."$end
 echo
 echo -e $cyan"[ + ] Use xCracker with command: xCracker.py -h, --help for help usage!"$end
-echo -e $cyan"[ + ] Remove xCracker with command: xCracker-remove !"$end
+echo -e $cyan"[ + ] Remove xCracker with command: xCracker-uninstall !"$end
 echo
 
 echo -e $green"\t[ - ] Do you want to start xCracker? [Y]es, [N]o: "$end
