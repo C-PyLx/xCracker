@@ -1,4 +1,4 @@
-![Screenshot]=xCrackerUsage.png
+![Screenshot](xCrackerUsage.png)
 
 
 # xCracker
