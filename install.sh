@@ -27,6 +27,12 @@ echo -e $cyan"[ + ] Please wait, Just a moment."$end
 
 mkdir /opt/xCracker
 
+echo "[ - ] Please enter root password to install [if you have password!]:"
+
+sudo chmod +x install.sh
+sudo chmod +x uninstall.sh
+sudo chmod +x xCracker.py
+
 cp version.txt /opt/xCracker
 cp Readme.txt /opt/xCracker
 cp words.txt /opt/xCracker
